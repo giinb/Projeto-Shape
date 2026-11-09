@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Projeto Shape</title>
+  <meta name="description" content="Acompanhe seus treinos de musculação: cargas, séries, descanso e evolução.">
+  <meta name="theme-color" content="#FBF8FE">
+  <meta name="color-scheme" content="light">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Shape">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="boot" class="boot">Projeto Shape</div>
+  <main id="view" tabindex="-1"></main>
+  <div id="timerbar" hidden></div>
+  <nav id="nav" aria-label="Navegação principal"></nav>
+  <div id="sheet-root"></div>
+  <div id="dialog-root"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+  <noscript><p style="padding:24px">O Projeto Shape precisa de JavaScript para funcionar.</p></noscript>
+  <script src="data.js"></script>
+  <script src="logic.js"></script>
+  <script src="db.js"></script>
+  <script src="charts.js"></script>
+  <script src="figure.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
